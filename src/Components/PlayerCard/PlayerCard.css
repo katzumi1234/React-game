@@ -1,0 +1,11 @@
+.player-image {
+    max-width: 75px;
+}
+.player-name {
+    font-weight: 600;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+.player-score {
+    font-size: 42px;
+}

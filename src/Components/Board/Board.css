@@ -1,0 +1,29 @@
+.cell {
+    border-radius: 100%;
+    background-color: rgb(95, 49, 174);
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: rgb(255, 87, 26);
+}
+
+.cell.player1 {
+    background-color: rgb(237, 237, 112);
+    cursor: not-allowed;
+}
+
+.cell.player2 {
+    background-color: rgb(221, 109, 109);
+    cursor: not-allowed;
+}
+
+.cell.player1.completed {
+    background-color: rgb(255, 255, 0);
+}
+
+.cell.player2.completed {
+    background-color: rgb(255, 0, 0);
+}

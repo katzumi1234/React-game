@@ -1,0 +1,38 @@
+.bg-hero {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(95, 49, 174);
+}
+
+.logo {
+  max-width: 100px;
+}
+
+* {
+  transition: all 0.3s;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-hero {
+  background-color: rgb(255, 87, 26);
+  color: #FFF;
+}
+
+.btn-hero:hover {
+  background-color: rgba(255, 87, 26, 0.397);
+  color: #FFF;
+}
+
+.game {
+  min-width: 80vw;
+}
+
+.text-hero {
+  text-transform: uppercase;
+  font-size: 26px;
+}
